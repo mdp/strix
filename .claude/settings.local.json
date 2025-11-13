@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(pip install:*)",
+      "Bash(source .venv/bin/activate)",
+      "Bash(python:*)",
+      "Bash(pyinstaller:*)",
+      "Bash(./dist/strix-agent:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
